@@ -11,7 +11,7 @@ namespace GSM_Info
         private string model;
         private ushort hoursIdle;
         private byte hoursTalk;
-        private enum BatteryType {LiIon, NiMH, NiCd};
+        private enum BatteryType {None, LiIon, NiMH, NiCd, LiPo};
 
         //constructors
         public Battery()

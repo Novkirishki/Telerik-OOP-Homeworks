@@ -19,34 +19,19 @@ namespace GSM_Info
 
         //constructors
         public GSM(string model, string manufacturer)
+            : this(model, manufacturer, 0, null, 0, 0, 0, 0)
         {
-            this.model = model;
-            this.manufacturer = manufacturer;
-            this.price = 0;
-            this.owner = "";
-            this.battery = new Battery();
-            this.display = new Display();
         }
 
         public GSM(string model, string manufacturer, float price)
+            : this(model, manufacturer, price, null, 0, 0, 0, 0)
         {
-            this.model = model;
-            this.manufacturer = manufacturer;
-            this.price = price;
-            this.owner = "";
-            this.battery = new Battery();
-            this.display = new Display();
         }
 
         public GSM(string model, string manufacturer, float price, string batteryModel,
             ushort hoursIdle, byte hoursTalk, float displaySize, int numberOfColours)
+            : this(model, manufacturer, price, null, batteryModel, hoursIdle, hoursTalk, displaySize, numberOfColours)
         {
-            this.model = model;
-            this.manufacturer = manufacturer;
-            this.price = price;
-            this.owner = "";
-            this.battery = new Battery(batteryModel, hoursIdle, hoursTalk);
-            this.display = new Display(displaySize, numberOfColours);
         }
 
         public GSM(string model, string manufacturer, float price, string owner, string batteryModel,
