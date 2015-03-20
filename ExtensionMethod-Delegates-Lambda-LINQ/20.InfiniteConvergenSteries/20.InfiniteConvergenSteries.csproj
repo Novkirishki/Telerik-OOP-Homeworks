@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66AEAE6C-87D0-439D-BC09-A6D167948B20}</ProjectGuid>
+    <ProjectGuid>{B84E54B6-3326-4F87-BD63-AB47374929AF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_09_19.StudentGroups</RootNamespace>
-    <AssemblyName>09-19.StudentGroups</AssemblyName>
+    <RootNamespace>_20.InfiniteConvergenSteries</RootNamespace>
+    <AssemblyName>20.InfiniteConvergenSteries</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,9 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Group.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="StudentGroups.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

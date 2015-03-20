@@ -130,6 +130,22 @@ namespace _09_19.StudentGroups
             Console.WriteLine();
             Console.WriteLine();
 
+            //problem 16
+            Console.WriteLine("Students from mathematics department: ");
+            var groupsArray = new Group[]
+            {
+                new Group(1, "Mathematics"),
+                new Group(2, "Mathematics"),
+                new Group(3, "Physics"),
+                new Group(4, "Biology")
+            };
+
+            var studentsFromMathematicsDepartment = from gr in groupsArray
+                                                    where gr.DepartmentName == "Mathematics"
+                                                    join st in students on gr.GroupNumber equals st.GroupNumber
+                                                    select st;
+            Print(studentsFromMathematicsDepartment);
+
             //problem 18
             Console.WriteLine("Students by groups (LINQ)");
             var groups = from st in students

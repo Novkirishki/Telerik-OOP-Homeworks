@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-19.StudentGroups", "09-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.Longest string", "17.Longest string\17.Longest string.csproj", "{556FAF61-2FF8-46DC-B90D-295719A4318C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.InfiniteConvergenSteries", "20.InfiniteConvergenSteries\20.InfiniteConvergenSteries.csproj", "{B84E54B6-3326-4F87-BD63-AB47374929AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{556FAF61-2FF8-46DC-B90D-295719A4318C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556FAF61-2FF8-46DC-B90D-295719A4318C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556FAF61-2FF8-46DC-B90D-295719A4318C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84E54B6-3326-4F87-BD63-AB47374929AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84E54B6-3326-4F87-BD63-AB47374929AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84E54B6-3326-4F87-BD63-AB47374929AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84E54B6-3326-4F87-BD63-AB47374929AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
